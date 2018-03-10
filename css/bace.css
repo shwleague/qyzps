@@ -1,0 +1,56 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-03 09:23:45
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-25 13:20:41
+*/
+*{
+	list-style: none;
+	font-size: 16px;
+	font-family: "微软雅黑","宋体",sans-serif;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #fff;
+	
+}
+img
+{
+	border: none;
+}
+.container{
+	height: auto;
+	padding:0 15px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 1200px){
+	.container{
+		width: 1140px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.container{
+		width: 960px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.container{
+		width: 720px;
+	}
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.container{
+		width: 540px;
+	}
+}
+@media screen and (max-width: 576px){
+	.container{
+		width: 100%;
+	}
+}
